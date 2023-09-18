@@ -1,0 +1,108 @@
+/* Reset some default styles */
+body, h1, p, button, a, img {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a background color for the whole page */
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the header with some cool fonts */
+h1 {
+    font-family: "Times New Roman", serif;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 36px;
+}
+
+/* Make the name stand out */
+strong {
+    color: #0066cc;
+}
+
+/* Style the button with a hover effect */
+button {
+    background-color: #0066cc;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0055aa;
+}
+
+/* Style the navigation links and make them block elements */
+nav a {
+    text-decoration: none;
+    color: #333;
+    padding: 10px 20px;
+    margin: 0 10px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    position: relative;
+    display: inline-block;
+    z-index: 1;
+}
+
+/* Add some spacing between the links */
+nav a:not(:last-child) {
+    margin-right: 20px;
+}
+
+/* Style the images to position them behind the nav links */
+img {
+    max-width: 100%;
+    width: max-content;
+    height: unset;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    opacity: 0.5;
+}
+
+/* Style the contact form */
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+/* Style the submit button */
+input[type="submit"] {
+    background-color: #0066cc;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #0055aa;
+}
