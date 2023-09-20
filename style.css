@@ -1,8 +1,19 @@
+body{
+    color: rgb(226,226,226);
+    font-family: 'Montserrat', sans-serif;
+    background-color: black;
+}
 nav{
     color:rgb(244, 244, 244);
     text-align: right;
 }
 
-saiuttej {
+.saiuttej {
     text-align: left;
+    letter-spacing: 7px;
+    color: rgb(226,226,226);
+}
+
+#head1 {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
 }
