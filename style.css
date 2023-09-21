@@ -11,10 +11,19 @@ nav{
 
 .saiuttej {
     text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
     letter-spacing: 7px;
     color: rgb(226,226,226);
+    text-transform: uppercase
+    text-decoration:none;
+    text-shadow: 3px 2px 3px grey;
 }
 
 #head1 {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+}
+.box{
+    border: 1px solid grey;
+    margin: auto;
 }
